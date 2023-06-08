@@ -16,7 +16,7 @@ Detailed Description: Hackath Ideas
 
 Key Automation Scope
 
-Handling windows & frames
+-Handling windows & frames
 -Filling simple form, Capture warning message
 -Extract menu items from frames & store in collections
 -Navigating back to home page
