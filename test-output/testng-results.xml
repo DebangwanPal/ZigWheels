@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="14" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-15T15:42:25 IST" name="Suite" finished-at="2023-06-15T15:46:02 IST" duration-ms="217030">
+    <groups>
+    </groups>
+    <test started-at="2023-06-15T15:42:25 IST" name="Test" finished-at="2023-06-15T15:46:02 IST" duration-ms="217030">
+      <class name="test.ZigWheelsGoogleSignIn">
+        <test-method is-config="true" signature="reportInitialiser()[pri:0, instance:test.ZigWheelsGoogleSignIn@6aa8e115]" started-at="2023-06-15T15:42:25 IST" name="reportInitialiser" finished-at="2023-06-15T15:42:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportInitialiser -->
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:test.ZigWheelsGoogleSignIn@6aa8e115]" started-at="2023-06-15T15:45:09 IST" name="openBrowser" finished-at="2023-06-15T15:45:16 IST" duration-ms="7511" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="setGoogleSignInCredentials()[pri:0, instance:test.ZigWheelsGoogleSignIn@6aa8e115]" started-at="2023-06-15T15:45:16 IST" name="setGoogleSignInCredentials" finished-at="2023-06-15T15:45:16 IST" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setGoogleSignInCredentials -->
+        <test-method is-config="true" signature="setGoogleSignPage()[pri:0, instance:test.ZigWheelsGoogleSignIn@6aa8e115]" started-at="2023-06-15T15:45:16 IST" name="setGoogleSignPage" finished-at="2023-06-15T15:45:16 IST" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setGoogleSignPage -->
+        <test-method is-config="true" signature="setHandleWindows()[pri:0, instance:test.ZigWheelsGoogleSignIn@6aa8e115]" started-at="2023-06-15T15:45:16 IST" name="setHandleWindows" finished-at="2023-06-15T15:45:16 IST" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setHandleWindows -->
+        <test-method is-config="true" signature="setHomePage()[pri:0, instance:test.ZigWheelsGoogleSignIn@6aa8e115]" started-at="2023-06-15T15:45:16 IST" name="setHomePage" finished-at="2023-06-15T15:45:16 IST" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setHomePage -->
+        <test-method signature="openWebsite()[pri:1, instance:test.ZigWheelsGoogleSignIn@6aa8e115]" started-at="2023-06-15T15:45:16 IST" name="openWebsite" finished-at="2023-06-15T15:45:48 IST" duration-ms="31329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWebsite -->
+        <test-method signature="clicksignIn()[pri:2, instance:test.ZigWheelsGoogleSignIn@6aa8e115]" started-at="2023-06-15T15:45:48 IST" name="clicksignIn" finished-at="2023-06-15T15:45:48 IST" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clicksignIn -->
+        <test-method signature="clickGoogleSignIn()[pri:3, instance:test.ZigWheelsGoogleSignIn@6aa8e115]" started-at="2023-06-15T15:45:48 IST" name="clickGoogleSignIn" finished-at="2023-06-15T15:45:49 IST" duration-ms="628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickGoogleSignIn -->
+        <test-method signature="handleBrowser()[pri:4, instance:test.ZigWheelsGoogleSignIn@6aa8e115]" started-at="2023-06-15T15:45:49 IST" name="handleBrowser" finished-at="2023-06-15T15:45:49 IST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handleBrowser -->
+        <test-method signature="insertingCredentials(java.lang.String)[pri:5, instance:test.ZigWheelsGoogleSignIn@6aa8e115]" started-at="2023-06-15T15:45:54 IST" name="insertingCredentials" data-provider="DATA" finished-at="2023-06-15T15:46:00 IST" duration-ms="5364" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gmail.c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertingCredentials -->
+        <test-method is-config="true" signature="close()[pri:0, instance:test.ZigWheelsGoogleSignIn@6aa8e115]" started-at="2023-06-15T15:46:00 IST" name="close" finished-at="2023-06-15T15:46:01 IST" duration-ms="1839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.ZigWheelsGoogleSignIn -->
+      <class name="test.ZigWheelsUpcomingBikes">
+        <test-method is-config="true" signature="reportInitialiser()[pri:0, instance:test.ZigWheelsUpcomingBikes@7c3fdb62]" started-at="2023-06-15T15:42:25 IST" name="reportInitialiser" finished-at="2023-06-15T15:42:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportInitialiser -->
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:test.ZigWheelsUpcomingBikes@7c3fdb62]" started-at="2023-06-15T15:42:25 IST" name="openBrowser" finished-at="2023-06-15T15:42:35 IST" duration-ms="10286" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="setHomePage()[pri:0, instance:test.ZigWheelsUpcomingBikes@7c3fdb62]" started-at="2023-06-15T15:42:35 IST" name="setHomePage" finished-at="2023-06-15T15:42:35 IST" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setHomePage -->
+        <test-method is-config="true" signature="setHondaBikePage()[pri:0, instance:test.ZigWheelsUpcomingBikes@7c3fdb62]" started-at="2023-06-15T15:42:35 IST" name="setHondaBikePage" finished-at="2023-06-15T15:42:35 IST" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setHondaBikePage -->
+        <test-method is-config="true" signature="setUpcommingPage()[pri:0, instance:test.ZigWheelsUpcomingBikes@7c3fdb62]" started-at="2023-06-15T15:42:35 IST" name="setUpcommingPage" finished-at="2023-06-15T15:42:35 IST" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpcommingPage -->
+        <test-method signature="OpenWebsite()[pri:1, instance:test.ZigWheelsUpcomingBikes@7c3fdb62]" started-at="2023-06-15T15:42:35 IST" name="OpenWebsite" finished-at="2023-06-15T15:43:05 IST" duration-ms="29902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenWebsite -->
+        <test-method signature="SelectBikes()[pri:2, instance:test.ZigWheelsUpcomingBikes@7c3fdb62]" started-at="2023-06-15T15:43:05 IST" name="SelectBikes" finished-at="2023-06-15T15:43:29 IST" duration-ms="23925" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectBikes -->
+        <test-method signature="clickHonda()[pri:3, instance:test.ZigWheelsUpcomingBikes@7c3fdb62]" started-at="2023-06-15T15:43:29 IST" name="clickHonda" finished-at="2023-06-15T15:43:53 IST" duration-ms="23840" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickHonda -->
+        <test-method signature="displayBikeDetails()[pri:4, instance:test.ZigWheelsUpcomingBikes@7c3fdb62]" started-at="2023-06-15T15:43:53 IST" name="displayBikeDetails" finished-at="2023-06-15T15:43:58 IST" duration-ms="5202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayBikeDetails -->
+        <test-method is-config="true" signature="close()[pri:0, instance:test.ZigWheelsUpcomingBikes@7c3fdb62]" started-at="2023-06-15T15:43:58 IST" name="close" finished-at="2023-06-15T15:44:01 IST" duration-ms="2653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="reportend()[pri:0, instance:test.ZigWheelsUpcomingBikes@7c3fdb62]" started-at="2023-06-15T15:46:01 IST" name="reportend" finished-at="2023-06-15T15:46:02 IST" duration-ms="474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportend -->
+      </class> <!-- test.ZigWheelsUpcomingBikes -->
+      <class name="test.ZigWheelUsedCars">
+        <test-method is-config="true" signature="reportInitialiser()[pri:0, instance:test.ZigWheelUsedCars@39b43d60]" started-at="2023-06-15T15:42:25 IST" name="reportInitialiser" finished-at="2023-06-15T15:42:25 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportInitialiser -->
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:test.ZigWheelUsedCars@39b43d60]" started-at="2023-06-15T15:44:01 IST" name="openBrowser" finished-at="2023-06-15T15:44:08 IST" duration-ms="7269" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="setHomePage()[pri:0, instance:test.ZigWheelUsedCars@39b43d60]" started-at="2023-06-15T15:44:08 IST" name="setHomePage" finished-at="2023-06-15T15:44:08 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setHomePage -->
+        <test-method is-config="true" signature="setlocationPage()[pri:0, instance:test.ZigWheelUsedCars@39b43d60]" started-at="2023-06-15T15:44:08 IST" name="setlocationPage" finished-at="2023-06-15T15:44:08 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setlocationPage -->
+        <test-method signature="OpenWebsite()[pri:1, instance:test.ZigWheelUsedCars@39b43d60]" started-at="2023-06-15T15:44:08 IST" name="OpenWebsite" finished-at="2023-06-15T15:44:40 IST" duration-ms="32160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenWebsite -->
+        <test-method signature="setLocation()[pri:2, instance:test.ZigWheelUsedCars@39b43d60]" started-at="2023-06-15T15:44:40 IST" name="setLocation" finished-at="2023-06-15T15:45:07 IST" duration-ms="26111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setLocation -->
+        <test-method signature="printCarName()[pri:3, instance:test.ZigWheelUsedCars@39b43d60]" started-at="2023-06-15T15:45:07 IST" name="printCarName" finished-at="2023-06-15T15:45:07 IST" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printCarName -->
+        <test-method is-config="true" signature="close()[pri:0, instance:test.ZigWheelUsedCars@39b43d60]" started-at="2023-06-15T15:45:07 IST" name="close" finished-at="2023-06-15T15:45:09 IST" duration-ms="1995" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.ZigWheelUsedCars -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

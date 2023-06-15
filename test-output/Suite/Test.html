@@ -1,0 +1,139 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>12/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Jun 15 15:42:25 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>217 seconds (217030 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.ZigWheelsUpcomingBikes.OpenWebsite()'><b>OpenWebsite</b><br>Test class: test.ZigWheelsUpcomingBikes</td>
+<td></td>
+<td>29</td>
+<td>test.ZigWheelsUpcomingBikes@7c3fdb62</td></tr>
+<tr>
+<td title='test.ZigWheelsUpcomingBikes.SelectBikes()'><b>SelectBikes</b><br>Test class: test.ZigWheelsUpcomingBikes</td>
+<td></td>
+<td>23</td>
+<td>test.ZigWheelsUpcomingBikes@7c3fdb62</td></tr>
+<tr>
+<td title='test.ZigWheelUsedCars.setLocation()'><b>setLocation</b><br>Test class: test.ZigWheelUsedCars</td>
+<td></td>
+<td>26</td>
+<td>test.ZigWheelUsedCars@39b43d60</td></tr>
+<tr>
+<td title='test.ZigWheelsGoogleSignIn.clicksignIn()'><b>clicksignIn</b><br>Test class: test.ZigWheelsGoogleSignIn</td>
+<td></td>
+<td>0</td>
+<td>test.ZigWheelsGoogleSignIn@6aa8e115</td></tr>
+<tr>
+<td title='test.ZigWheelsUpcomingBikes.clickHonda()'><b>clickHonda</b><br>Test class: test.ZigWheelsUpcomingBikes</td>
+<td></td>
+<td>23</td>
+<td>test.ZigWheelsUpcomingBikes@7c3fdb62</td></tr>
+<tr>
+<td title='test.ZigWheelsGoogleSignIn.clickGoogleSignIn()'><b>clickGoogleSignIn</b><br>Test class: test.ZigWheelsGoogleSignIn</td>
+<td></td>
+<td>0</td>
+<td>test.ZigWheelsGoogleSignIn@6aa8e115</td></tr>
+<tr>
+<td title='test.ZigWheelUsedCars.OpenWebsite()'><b>OpenWebsite</b><br>Test class: test.ZigWheelUsedCars</td>
+<td></td>
+<td>32</td>
+<td>test.ZigWheelUsedCars@39b43d60</td></tr>
+<tr>
+<td title='test.ZigWheelsGoogleSignIn.handleBrowser()'><b>handleBrowser</b><br>Test class: test.ZigWheelsGoogleSignIn</td>
+<td></td>
+<td>0</td>
+<td>test.ZigWheelsGoogleSignIn@6aa8e115</td></tr>
+<tr>
+<td title='test.ZigWheelsUpcomingBikes.displayBikeDetails()'><b>displayBikeDetails</b><br>Test class: test.ZigWheelsUpcomingBikes</td>
+<td></td>
+<td>5</td>
+<td>test.ZigWheelsUpcomingBikes@7c3fdb62</td></tr>
+<tr>
+<td title='test.ZigWheelsGoogleSignIn.openWebsite()'><b>openWebsite</b><br>Test class: test.ZigWheelsGoogleSignIn</td>
+<td></td>
+<td>31</td>
+<td>test.ZigWheelsGoogleSignIn@6aa8e115</td></tr>
+<tr>
+<td title='test.ZigWheelsGoogleSignIn.insertingCredentials()'><b>insertingCredentials</b><br>Test class: test.ZigWheelsGoogleSignIn<br>Parameters: abc@gmail.c</td>
+<td></td>
+<td>5</td>
+<td>test.ZigWheelsGoogleSignIn@6aa8e115</td></tr>
+<tr>
+<td title='test.ZigWheelUsedCars.printCarName()'><b>printCarName</b><br>Test class: test.ZigWheelUsedCars</td>
+<td></td>
+<td>0</td>
+<td>test.ZigWheelUsedCars@39b43d60</td></tr>
+</table><p>
+</body>
+</html>
